@@ -1,0 +1,67 @@
+.parallax {
+  /* The image used */
+  background-image: url("/assets/1.jpg");
+
+  /* Set a specific height */
+  min-height: 100px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.title {
+    font-size: 100px;
+    font-family:monospace;
+    display: inline-block;
+    padding-top:40px
+}
+
+hr {
+   display:block;
+    height: 10px;
+background: black}
+
+.courier {
+    font-family: 'Space Mono', monospace;
+    letter-spacing:-.1px
+}
+.topbar
+{display: inline-block;
+padding:20px;
+font-family: 'Space Mono', monospace;}
+
+.clickbar {width: 900px;
+    float:left;
+text-align: center}
+
+body {
+background-color: white
+    ;
+    }
+.topbar:hover {
+    text-decoration: underline;
+    
+}
+.spacer{
+    height: 700px
+}
+.spacer2{
+    height: 20px
+}
+
+a:visited {
+  color: black;
+}
+
+.bscimg {
+    display: inline-block
+}
+
+.desc {display:inline-block;
+
+    position:relative;
+   bottom: 20px;
+left:20px;
+    font-family: 'Space Mono', monospace;}
